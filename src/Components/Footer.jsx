@@ -61,36 +61,37 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`shyamlal.prasanth@gmail.com`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
-        {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
-          </a>
-        )}
+        
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/shyamlalkp`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
-          </a>
-        )}
-        {instagram && (
-          <a
-            href={`https://www.instagram.com/${instagram}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/shyamlal-k-p-a91975263/`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
+          </a>
+        )}
+        {devDotTo && (
+          <a href={`https://dev.to/shyamprasanth`} target="_blank" rel="noopener noreferrer">
+            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
+          </a>
+        )}
+        {instagram && (
+          <a
+            href={`https://www.instagram.com/shyam___187/`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
         )}
         {medium && (
@@ -99,13 +100,13 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://x.com/ShyamlalKP4494`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={`https://www.youtube.com/@shyamkalayil`}
             target="_blank"
             rel="noopener noreferrer"
           >

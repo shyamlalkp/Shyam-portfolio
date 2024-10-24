@@ -16,27 +16,33 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/leaves-4235968.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "web of codes";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a passionate front-end developer with expertise in creating responsive, user-friendly web applications. I focus on crafting intuitive and visually appealing interfaces with seamless user experiences using modern web technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Typescript",
+  "React.js",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Git",
+  "GitHub",
+  "Redux",
+  "Context API",
+  "UI/UX Design Skills",
 ];
 
 /**
@@ -44,8 +50,9 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
+
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  <i>Turning designs into interactive realities, one pixel at a time.</i>;
 
 const About = () => {
   return (
@@ -53,7 +60,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "gray",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
