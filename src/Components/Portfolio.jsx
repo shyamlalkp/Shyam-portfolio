@@ -18,6 +18,11 @@ const projectList = [
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my project and design abilities.",
     url: "https://shyamlalkp.github.io/shyam-resume/",
   },
+  {
+    title: "Airbnb clone",
+    description:
+      "Developed an Airbnb clone using html and tailwind.css",
+  },
 ];
 
 const Portfolio = () => {
